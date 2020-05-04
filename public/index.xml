@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CovidMetrika</title>
+    <link>/</link>
+    <description>Recent content on CovidMetrika</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 29 Apr 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Dashboard do Brasil e dos estados</title>
+      <link>/posts/metrika/</link>
+      <pubDate>Wed, 29 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/metrika/</guid>
+      <description>O aplicativo abaixo mostra análises descritivas acerca da disseminação da COVID-19 no Brasil e em todos os estados brasileiros. Você também pode visualizar o aplicativo no site em que ele está hospedado clicando aqui. A descrição do aplicativo encontra-se mais abaixo, ainda nesta página. Qualquer dúvida, crítica ou sugestão, entre em contato conosco através de algum dos nossos meios de comunicação presentes na aba Sobre nós.
+</description>
+    </item>
+    
+    <item>
+      <title>Dashboard de Porto Alegre</title>
+      <link>/posts/porto_alegre/</link>
+      <pubDate>Tue, 28 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/porto_alegre/</guid>
+      <description>O aplicativo abaixo mostra análises descritivas acerca da disseminação da COVID-19 na cidade de Porto Alegre. Você também pode visualizar o aplicativo no site em que ele está hospedado clicando aqui. A descrição do aplicativo encontra-se mais abaixo, ainda nesta página. Qualquer dúvida, crítica ou sugestão, entre em contato conosco através de algum dos nossos meios de comunicação presentes na aba Sobre nós.
+</description>
+    </item>
+    
+    <item>
+      <title>Dashboard do Rio Grande do Sul</title>
+      <link>/posts/rio_grande_do_sul/</link>
+      <pubDate>Mon, 27 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/rio_grande_do_sul/</guid>
+      <description>O aplicativo abaixo mostra análises descritivas acerca da disseminação da COVID-19 no estado do Rio Grande do Sul. Você também pode visualizar o aplicativo no site em que ele está hospedado clicando aqui. A descrição do aplicativo encontra-se mais abaixo, ainda nesta página. Qualquer dúvida, crítica ou sugestão, entre em contato conosco através de algum dos nossos meios de comunicação presentes na aba Sobre nós.
+</description>
+    </item>
+    
+  </channel>
+</rss>
