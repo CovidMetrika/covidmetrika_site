@@ -8369,7 +8369,11 @@ pre {
 }
 
 
+/*modificacoes com os textos*/
 
+p {
+    text-align:justify;
+}
 
 
 

@@ -3,6 +3,6 @@ title: 'Sobre nós'
 featured_image: /images/banner.png
 ---
 
-Em construção
+# Email do CovidMetrika: covidmetrika@gmail.com
 
-
+![](contato.png)
