@@ -3,13 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/posts/</loc>
-    <lastmod>2020-04-29T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>/</loc>
     <lastmod>2020-04-29T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -17,21 +10,28 @@
   </url>
   
   <url>
-    <loc>/posts/metrika/</loc>
+    <loc>/dash/metrika/</loc>
     <lastmod>2020-04-29T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>/posts/porto_alegre/</loc>
+    <loc>/dash/</loc>
+    <lastmod>2020-04-29T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/dash/porto_alegre/</loc>
     <lastmod>2020-04-28T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>/posts/rio_grande_do_sul/</loc>
+    <loc>/dash/rio_grande_do_sul/</loc>
     <lastmod>2020-04-27T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>

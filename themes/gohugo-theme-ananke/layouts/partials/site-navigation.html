@@ -5,12 +5,14 @@
 
       {{ if .Site.Menus.main }}
         <ul class="pl0 mr3">
-              <a href="{{ .Site.BaseURL }}" class="f3 fw2 hover-white no-underline white-90 dib">
-      Página inicial
-    </a>
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a href="{{ .Site.BaseURL }}" class="f3 fw2 hover-white no-underline white-90 dib">
+              Página inicial
+            </a>
+          </li>
           {{ range .Site.Menus.main }}
           <li class="list f5 f4-ns fw4 dib pr3">
-            <a class="hover-white no-underline white-90" href="{{ .URL }}">
+            <a href="{{ .URL }}" class="f3 fw2 hover-white no-underline white-90 dib"> <!--removido class="hover-white no-underline white-90" -->
               {{ .Name }}
             </a>
           </li>

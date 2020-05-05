@@ -1,0 +1,35 @@
+---
+title: "Dashboard do Brasil e dos estados"
+featured_image: /images/metrika.png
+date: "2020-04-29"
+---
+
+<div style="padding-right: 20px; padding-left: 20px;">
+
+O primeiro painel criado pelo nosso grupo já está disponível online com os dados de COVID-19 a nível nacional. Para acessá-lo basta clicar <a href="https://mhbarbian.shinyapps.io/CovidMetrika/" target="_blank">aqui</a>. Qualquer dúvida, crítica ou sugestão, entre em contato conosco através de algum dos nossos meios de comunicação presentes na aba [Sobre nós](/about/index.html).
+  
+</div>
+
+<div class="container" style="padding-right: 0px;padding-left: 0px;">
+  <iframe class="responsive-iframe" src ="https://mhbarbian.shinyapps.io/CovidMetrika/">
+  </iframe>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
