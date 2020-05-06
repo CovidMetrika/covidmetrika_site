@@ -3,54 +3,54 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/covidmetrika/</loc>
+    <loc>https://www.ufrgs.br/covidmetrika/</loc>
     <lastmod>2020-04-29T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>/covidmetrika/dash/metrika/</loc>
+    <loc>https://www.ufrgs.br/covidmetrika/dash/metrika/</loc>
     <lastmod>2020-04-29T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>/covidmetrika/dash/</loc>
+    <loc>https://www.ufrgs.br/covidmetrika/dash/</loc>
     <lastmod>2020-04-29T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>/covidmetrika/dash/porto_alegre/</loc>
+    <loc>https://www.ufrgs.br/covidmetrika/dash/porto_alegre/</loc>
     <lastmod>2020-04-28T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>/covidmetrika/dash/rio_grande_do_sul/</loc>
+    <loc>https://www.ufrgs.br/covidmetrika/dash/rio_grande_do_sul/</loc>
     <lastmod>2020-04-27T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>/covidmetrika/categories/</loc>
+    <loc>https://www.ufrgs.br/covidmetrika/categories/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>/covidmetrika/about/</loc>
+    <loc>https://www.ufrgs.br/covidmetrika/about/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>/covidmetrika/tags/</loc>
+    <loc>https://www.ufrgs.br/covidmetrika/tags/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>

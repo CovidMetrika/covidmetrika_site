@@ -1,5 +1,0 @@
----
-title: 'Dashboards'
-featured_image: /images/banner.png
----
-
