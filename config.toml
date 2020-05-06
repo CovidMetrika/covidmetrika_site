@@ -16,7 +16,7 @@ enableRobotsTXT = false
   filename = "sitemap.xml"
 
 [params]
-  favicon = "images/icone.png" # icone da guia da pagina
+  favicon = "https://www.ufrgs.br/covidmetrika/images/icone.png" # icone da guia da pagina
   description = ""
   facebook = ""
   twitter = "https://twitter.com/CMetrika"
