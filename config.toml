@@ -1,5 +1,5 @@
 title = "CovidMetrika"
-baseURL = ""
+baseURL = "https://www.ufrgs.br/covidmetrika/"
 languageCode = "en-us"
 theme = "gohugo-theme-ananke"
 

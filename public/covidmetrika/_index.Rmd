@@ -1,0 +1,8 @@
+---
+title: 'CovidMetrika'
+featured_image: /images/banner.png
+---
+
+Repositório destinado aos projetos do grupo covidMetrika composto por estudantes e professores do Departamento de Estatística e Programa de Pós-Graduação em Epidemiologia da Universidade Federal do Rio Grande do Sul. Os projetos tem como objetivo descrever os casos de COVID-19 temporal e espacialmente (a nível de município, UF e território nacional), assim como estimar parâmetros de transmissibilidade do vírus e dinâmica do surto.
+    
+Qualquer dúvida, crítica ou sugestão, entre em contato conosco através de algum dos nossos meios de comunicação presentes na aba [Sobre nós](/about/index.html).

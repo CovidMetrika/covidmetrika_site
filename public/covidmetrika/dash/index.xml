@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dashboards on CovidMetrika</title>
+    <link>/dash/</link>
+    <description>Recent content in Dashboards on CovidMetrika</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 29 Apr 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/dash/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Dashboard do Brasil e dos estados</title>
+      <link>/dash/metrika/</link>
+      <pubDate>Wed, 29 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/dash/metrika/</guid>
+      <description>O primeiro painel criado pelo nosso grupo já está disponível online com os dados de COVID-19 a nível nacional. Para acessá-lo basta clicar aqui. Qualquer dúvida, crítica ou sugestão, entre em contato conosco através de algum dos nossos meios de comunicação presentes na aba Sobre nós.
+
+</description>
+    </item>
+    
+    <item>
+      <title>Dashboard de Porto Alegre</title>
+      <link>/dash/porto_alegre/</link>
+      <pubDate>Tue, 28 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/dash/porto_alegre/</guid>
+      <description>Este painel com os casos de Porto Alegre apresenta informações por fonte notificadora (hospitais, UPAs, laboratórios, entre outras). Este é o “real” primeiro painel! Gustavo e Márcia são os autores e o CovidMetrika fica feliz em poder colaborar no desenvolvimento deste excelente dashboard. Para acessá-lo basta clicar aqui. Qualquer dúvida, crítica ou sugestão, entre em contato conosco através de algum dos nossos meios de comunicação presentes na aba Sobre nós.</description>
+    </item>
+    
+    <item>
+      <title>Dashboard do Rio Grande do Sul</title>
+      <link>/dash/rio_grande_do_sul/</link>
+      <pubDate>Mon, 27 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/dash/rio_grande_do_sul/</guid>
+      <description>Este novo painel apresenta informações de casos de COVID-19 a nível estadual. Para acessá-lo basta clicar aqui. Qualquer dúvida, crítica ou sugestão, entre em contato conosco através de algum dos nossos meios de comunicação presentes na aba Sobre nós.
+
+</description>
+    </item>
+    
+  </channel>
+</rss>
