@@ -2,13 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on CovidMetrika</title>
-    <link>/covidmetrika/posts/</link>
+    <link>https://www.ufrgs.br/covidmetrika/posts/</link>
     <description>Recent content in Posts on CovidMetrika</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Fri, 22 May 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/covidmetrika/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.ufrgs.br/covidmetrika/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Mob plot</title>
+      <link>https://www.ufrgs.br/covidmetrika/posts/mob-plot/</link>
+      <pubDate>Fri, 22 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.ufrgs.br/covidmetrika/posts/mob-plot/</guid>
+      <description>Por Rodrigo dos Reis e Gabriel Holmer Saul
+22/05/2020
+Em Abril deste ano, a Google vem disponibilizando relatórios sobre a mobilidade das comunidades com o intuito de fornecer informações sobre o que mudou em resposta às políticas destinadas a combater o COVID-19. Os relatórios traçam tendências de movimento ao longo do tempo por região geográfica, em diferentes categorias de lugares, como varejo e recreação, compras e farmácias, parques, estações de trânsito, locais de trabalho e residenciais.</description>
+    </item>
     
   </channel>
 </rss>

@@ -6,7 +6,7 @@
 {{ define "main" }}
   {{ $section := .Site.GetPage "section" .Section }}
   <article> <!-- removido class="flex-l flex-wrap justify-between mw8 center ph3"  -->
-    <header class="mt4 w-100" style="padding-right: 20px; padding-left: 20px;"> <!-- tive que colocar o padding aqui pq senao o titulo nao iria seguir o estilo do texto-->
+    <header class="mt4 w-100" > <!-- tive que colocar o padding aqui pq senao o titulo nao iria seguir o estilo do texto style="padding-right: 20px; padding-left: 20px;"-->
       <aside class="instapaper_ignoref b helvetica tracked">
           {{/*
           CurrentSection allows us to use the section title instead of inferring from the folder.
@@ -14,12 +14,12 @@
           */}}
         <!-- {{with .CurrentSection.Title }}{{. | upper }}{{end}} -->
       </aside>
-      <h1 class="f1 athelas mt3 mb1">
+      <h1 class="f1 athelas mt3 mb1 flex-l flex-wrap justify-between mw8 center ph3"> <!-- f1 athelas mt3 mb1 eh o original, adicionei o resto para ficar centralizado -->
         {{- .Title -}}
       </h1>
       {{ with .Params.author }}
-      <p class="tracked">
-          By <strong>
+      <p class="tracked flex-l flex-wrap mw8 center ph3">
+          Por <strong>
           {{ if reflect.IsSlice . }}
               {{ delimit . ", " | markdownify }}
           {{else}}
@@ -32,7 +32,7 @@
       
       <!--
       
-      <time class="f6 mv4 dib tracked" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
+      <time class="f6 mv4 dib tracked flex-l flex-wrap justify-between mw8 center ph3" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
         {{- .Date.Format "02/01/2006" -}}
       </time>
       
@@ -49,7 +49,7 @@
         <span class="f6 mv4 dib tracked"> - {{ .WordCount}} words</span>
       {{ end }}
     </header>
-    <div class="nested-copy-line-height {{ $.Param "post_content_classes"  | default "serif"}} f3"> <!-- removido class="   nested-links nested-img mid-gray pr4-l w-two-thirds-l" -->
+    <div class="nested-copy-line-height {{ $.Param "post_content_classes"  | default "serif"}} f3 "> <!-- removido class="   nested-links nested-img mid-gray pr4-l w-two-thirds-l" -->
       {{- .Content -}}
       {{- partial "tags.html" . -}}
       <div class="mt6 instapaper_ignoref">

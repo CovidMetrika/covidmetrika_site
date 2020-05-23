@@ -4,11 +4,11 @@ featured_image: /images/rs.png
 date: "2020-04-27"
 ---
 
-<div style="padding-right: 20px; padding-left: 20px;">
+<article class="flex-l flex-wrap justify-between mw8 center ph3">
 
 Este novo painel apresenta informações de casos de COVID-19 a nível estadual. Para acessá-lo basta clicar <a href="https://mhbarbian.shinyapps.io/covid19_rs/" target="_blank">aqui</a>. Qualquer dúvida, crítica ou sugestão, entre em contato conosco através de algum dos nossos meios de comunicação presentes na aba [Sobre nós](https://www.ufrgs.br/covidmetrika/about/index.html).
   
-</div>
+</article>
 
 <div class="container" style="padding-right: 0px;padding-left: 0px;">
   <iframe class="responsive-iframe" src ="https://mhbarbian.shinyapps.io/covid19_rs/">
