@@ -1,0 +1,15 @@
+---
+title: Lançamento do aplicativo para celular
+featured_image: /images/app.png
+date: '2020-05-27'
+---
+
+<article class="flex-l flex-wrap justify-between mw8 center ph3">
+
+27/05/2020
+
+O aplicativo para celular do CovidMetrika já está disponível para download no Google Play!
+
+Para baixá-lo, clique <a href="https://play.google.com/store/apps/details?id=appinventor.ai_covidmetrika.CovidMetrika" target="_blank">aqui</a>.
+
+</article>

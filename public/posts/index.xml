@@ -6,10 +6,22 @@
     <description>Recent content in Posts on CovidMetrika</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 22 May 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 27 May 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://www.ufrgs.br/covidmetrika/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Lançamento do aplicativo para celular</title>
+      <link>https://www.ufrgs.br/covidmetrika/posts/app/</link>
+      <pubDate>Wed, 27 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.ufrgs.br/covidmetrika/posts/app/</guid>
+      <description>27/05/2020
+O aplicativo para celular do CovidMetrika já está disponível para download no Google Play!
+Para baixá-lo, clique aqui.
+</description>
+    </item>
     
     <item>
       <title>Mob plot</title>

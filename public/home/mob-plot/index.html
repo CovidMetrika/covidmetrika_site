@@ -83,6 +83,12 @@ Em Abril deste ano, a Google vem disponibilizando relatórios sobre a mobilidade
           </li>
           
           <li class="list f5 f4-ns fw4 dib pr3">
+            <a href="/covidmetrika/app/" class="f3 fw2 hover-white no-underline white-90 dib"> 
+              App Mobile
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
             <a href="/covidmetrika/dash/" class="f3 fw2 hover-white no-underline white-90 dib"> 
               Dashboards
             </a>
@@ -178,7 +184,7 @@ Em Abril deste ano, a Google vem disponibilizando relatórios sobre a mobilidade
 <p>Por <strong>Rodrigo dos Reis e Gabriel Holmer Saul</strong></p>
 <p>22/05/2020</p>
 <p>Em Abril deste ano, a <a href="https://about.google/">Google</a> vem disponibilizando relatórios sobre a <a href="https://www.google.com/covid19/mobility/">mobilidade das comunidades</a> com o intuito de fornecer informações sobre o que mudou em resposta às políticas destinadas a combater o COVID-19. Os relatórios traçam tendências de movimento ao longo do tempo por região geográfica, em diferentes categorias de lugares, como varejo e recreação, compras e farmácias, parques, estações de trânsito, locais de trabalho e residenciais.</p>
-<p>O relatório mais recente foi publicado em 22/05/2020. Vamos aproveitar que, junto do relatório, um arquivo <a href="https://www.google.com/covid19/mobility/data_documentation.html?hl=en">CSV</a> é disponibilizado, e vamos explorar algumas funções em <a href="https://www.r-project.org/">R</a> de manipulação de dados e construirmos um <strong>gráfico de mobilidade</strong> com o pacote <a href="https://ggplot2.tidyverse.org/">ggplot2</a> para a localidade do estado do Rio Grande do Sul.</p>
+<p>O relatório mais recente foi publicado em 29/05/2020. Vamos aproveitar que, junto do relatório, um arquivo <a href="https://www.google.com/covid19/mobility/data_documentation.html?hl=en">CSV</a> é disponibilizado, e vamos explorar algumas funções em <a href="https://www.r-project.org/">R</a> de manipulação de dados e construirmos um <strong>gráfico de mobilidade</strong> com o pacote <a href="https://ggplot2.tidyverse.org/">ggplot2</a> para a localidade do estado do Rio Grande do Sul.</p>
 <div id="carregando-o-arquivo-de-dados" class="section level2">
 <h2>Carregando o arquivo de dados</h2>
 <p>Uma vez que baixamos o arquivo de dados, vamos importá-lo para o <code>R</code>.</p>
@@ -195,7 +201,7 @@ mobilidade &lt;- read_csv(
 <pre class="r"><code>library(dplyr)
 
 glimpse(mobilidade)</code></pre>
-<pre><code>## Observations: 362,549
+<pre><code>## Observations: 441,304
 ## Variables: 11
 ## $ country_region_code                                &lt;chr&gt; &quot;AE&quot;, &quot;AE&quot;, &quot;AE&quot;...
 ## $ country_region                                     &lt;chr&gt; &quot;United Arab Emi...
@@ -221,7 +227,7 @@ mobilidade &lt;- mobilidade %&gt;%
   gather(key = &quot;Tipo&quot;, value = &quot;Percentual&quot;, -date)</code></pre>
 <p>Note que antes de empilharmos os dados, mantivemos apenas as variáveis (colunas) que tínhamos interesse de analisarmos, utilizando a função <code>select</code>. Agora o novo objeto possui apenas três colunas:</p>
 <pre class="r"><code>mobilidade</code></pre>
-<pre><code>## # A tibble: 552 x 3
+<pre><code>## # A tibble: 582 x 3
 ##    date       Tipo                                               Percentual
 ##    &lt;date&gt;     &lt;chr&gt;                                                   &lt;dbl&gt;
 ##  1 2020-02-15 retail_and_recreation_percent_change_from_baseline          4
@@ -234,7 +240,7 @@ mobilidade &lt;- mobilidade %&gt;%
 ##  8 2020-02-22 retail_and_recreation_percent_change_from_baseline         -3
 ##  9 2020-02-23 retail_and_recreation_percent_change_from_baseline          4
 ## 10 2020-02-24 retail_and_recreation_percent_change_from_baseline        -16
-## # ... with 542 more rows</code></pre>
+## # ... with 572 more rows</code></pre>
 <p>Antes de começarmos a construir o nosso gráfico, vamos formatar a variável <code>Tipo</code>:</p>
 <pre class="r"><code>mobilidade$Tipo &lt;- factor(mobilidade$Tipo,
                           labels = c(&quot;Mercearia e farmácia&quot;,
@@ -353,7 +359,7 @@ p + theme_wsj() +
   <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://www.ufrgs.br/covidmetrika/" >
     &copy;  CovidMetrika 2020 
   </a>
-  <a class="f4 fw4 no-underline white-70 dn dib-ns pv2 ph3">Site criado por Gabriel Holmer Saul</a>
+  <a class="f4 fw4 no-underline white-70 dn dib-ns pv2 ph3">Site/App criado por Gabriel Holmer Saul</a>
     <div>
 
 
