@@ -11,7 +11,7 @@ O aplicativo para celular do CovidMetrika já está disponível no Google Play!
 
 Para baixá-lo, clique <a href="https://play.google.com/store/apps/details?id=appinventor.ai_covidmetrika.CovidMetrika" target="_blank">aqui</a>.
 
-![](/images/app.png)
+![](/covidmetrika/images/app.png)
 
 </article>
 
