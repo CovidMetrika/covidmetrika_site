@@ -21,7 +21,7 @@
 
     
       
-<link rel="shortcut icon" href="/https://www.ufrgs.br/covidmetrika/images/icone.png" type="image/x-icon" />
+<link rel="shortcut icon" href="//covidmetrika/images/icone.png" type="image/x-icon" />
 
     
 
@@ -184,7 +184,7 @@ Em Abril deste ano, a Google vem disponibilizando relatórios sobre a mobilidade
 <p>Por <strong>Rodrigo dos Reis e Gabriel Holmer Saul</strong></p>
 <p>22/05/2020</p>
 <p>Em Abril deste ano, a <a href="https://about.google/">Google</a> vem disponibilizando relatórios sobre a <a href="https://www.google.com/covid19/mobility/">mobilidade das comunidades</a> com o intuito de fornecer informações sobre o que mudou em resposta às políticas destinadas a combater o COVID-19. Os relatórios traçam tendências de movimento ao longo do tempo por região geográfica, em diferentes categorias de lugares, como varejo e recreação, compras e farmácias, parques, estações de trânsito, locais de trabalho e residenciais.</p>
-<p>O relatório mais recente foi publicado em 30/05/2020. Vamos aproveitar que, junto do relatório, um arquivo <a href="https://www.google.com/covid19/mobility/data_documentation.html?hl=en">CSV</a> é disponibilizado, e vamos explorar algumas funções em <a href="https://www.r-project.org/">R</a> de manipulação de dados e construirmos um <strong>gráfico de mobilidade</strong> com o pacote <a href="https://ggplot2.tidyverse.org/">ggplot2</a> para a localidade do estado do Rio Grande do Sul.</p>
+<p>O relatório mais recente foi publicado em 09/06/2020. Vamos aproveitar que, junto do relatório, um arquivo <a href="https://www.google.com/covid19/mobility/data_documentation.html?hl=en">CSV</a> é disponibilizado, e vamos explorar algumas funções em <a href="https://www.r-project.org/">R</a> de manipulação de dados e construirmos um <strong>gráfico de mobilidade</strong> com o pacote <a href="https://ggplot2.tidyverse.org/">ggplot2</a> para a localidade do estado do Rio Grande do Sul.</p>
 <div id="carregando-o-arquivo-de-dados" class="section level2">
 <h2>Carregando o arquivo de dados</h2>
 <p>Uma vez que baixamos o arquivo de dados, vamos importá-lo para o <code>R</code>.</p>
@@ -338,6 +338,27 @@ p + theme_wsj() +
   
 </ul>
 <div class="mt6 instapaper_ignoref">
+      
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "covidmetrika" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
       
       
       </div>
